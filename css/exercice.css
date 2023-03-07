@@ -4,7 +4,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-}
+}  
+
 /* 2. exercice-2 */
 .exercice-2 .container {
   display: flex;
@@ -12,6 +13,7 @@
   align-items: center;
   justify-content: center;
 }
+
 /* 3. exercice-3 */
 .exercice-3 .container {
   display: flex;
@@ -85,7 +87,21 @@
 }
 
 /* 8. exercice-8 */
+.exercice-8 .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: baseline;
+}
 
+.exercice-8 .element-blue {
+  flex-grow: 2;
+}
+
+.exercice-8 .element-pink {
+  order: 1;
+  flex-grow: 1;
+}
 /* 9. exercice-9 */
 
 /* 10. exercice-10 */
